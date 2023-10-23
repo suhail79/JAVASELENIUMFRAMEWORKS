@@ -1,6 +1,7 @@
 package org.test.AHLearnTestng;
 
-public class AaaLearntestngannotationpriority {
+import org.testng.annotations.Test;
+
 
 /*
 
@@ -9,17 +10,32 @@ Setting up priority in the test cases---we can use priority attribute
 
 It follows the order ( -3,-2,-1,0 & without priority,1,2,3)
 
+*/
+public class AaaLearntestngannotationpriority {
 
-@test(priority=0)
-public void Earth(){
-system.out.println("this is earth")
-}
 
-@test(priority=1)
-public void Earth(){
-system.out.println("this is earth")
-}
+    @Test(priority = -10)
+    private void login() {
+        System.out.println("Login into the website");
+    }
 
- */
+    @Test(priority = -5)
+    private void SearchHotel() {
+        System.out.println("search for hotel");
+    }
 
+    @Test
+    private void SelectHotel() {
+        System.out.println("select a hotel");
+    }
+
+    @Test(priority = 5)
+    private void BookaHotel() {
+        System.out.println("Book a hotel");
+    }
+
+    @Test(priority = 10)
+    private void BookingConfirmation() {
+        System.out.println("confirm booking");
+    }
 }
