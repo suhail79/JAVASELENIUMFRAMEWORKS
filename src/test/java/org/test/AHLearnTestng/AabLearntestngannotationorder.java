@@ -1,6 +1,20 @@
 package org.test.AHLearnTestng;
 
 import org.testng.annotations.*;
+/*
+
+BeforeSuite
+BeforeTest
+BeforeClass
+BeforeMethod
+Test
+AfterMethod
+AfterClass
+AfterTest
+AfterSuite
+
+     */
+
 
 public class AabLearntestngannotationorder {
     @BeforeSuite

@@ -1,13 +1,5 @@
 package org.test.AHLearnTestng;
-
-public class AgaLearntestngparameterization {
-    /*
-
-    @Test
-    @Parameters({ "param1", "param2" })
-    public void testMethod(String param1, int param2) {
-        // Test code using param1 and param2
-    }
+ /*
 
 executing parameters in XML file
 =================================
@@ -24,4 +16,18 @@ executing parameters in XML file
 </suite>
 
      */
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class AgaLearntestngparameterization {
+
+
+    @Parameters({"param1", "param2"})
+    @Test
+    public void testMethod(String param1, int param2) {
+        System.out.println(param1);
+        System.out.println(param2);
+    }
+
 }
