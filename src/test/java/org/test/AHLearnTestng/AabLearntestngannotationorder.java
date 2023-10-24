@@ -39,7 +39,7 @@ public class AabLearntestngannotationorder {
 
     @BeforeMethod
     private void Beforemethod() {
-        System.out.println("This is before method");
+        System.out.println("repetative before method");
     }
 
     @Test
@@ -47,14 +47,14 @@ public class AabLearntestngannotationorder {
         System.out.println("this is test method method 1");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     private void test2() {
         System.out.println("this is test method method 2");
     }
 
     @AfterMethod
     private void Aftermethod() {
-        System.out.println("This is After method");
+        System.out.println("repetative After method");
     }
 
     @AfterGroups
