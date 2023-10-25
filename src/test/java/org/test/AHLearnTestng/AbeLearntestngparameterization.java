@@ -1,6 +1,9 @@
 package org.test.AHLearnTestng;
  /*
 
+we need to run this in testng.XML file level we cannot run this in class level
+
+
 executing parameters in XML file
 =================================
 
@@ -20,7 +23,7 @@ executing parameters in XML file
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class AgaLearntestngparameterization {
+public class AbeLearntestngparameterization {
 
 
     @Parameters({"param1", "param2"})

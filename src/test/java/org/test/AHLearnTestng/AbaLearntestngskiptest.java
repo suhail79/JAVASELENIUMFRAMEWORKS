@@ -2,6 +2,13 @@ package org.test.AHLearnTestng;
 
 import org.testng.annotations.Test;
 
+/*
+
+for skipping any test we need to use enabled=false attribute
+
+ */
+
+
 public class AbaLearntestngskiptest {
 
 

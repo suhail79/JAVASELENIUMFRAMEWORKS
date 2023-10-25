@@ -4,6 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+/*
+
+if we are using Soft Assert in testng then if  one soft assert scenario gets failed
+then all other lines will get executed in the same test it will be not considered as failed.
+
+ */
 public class AbcLearntestngsoftassert {
 
     @Test

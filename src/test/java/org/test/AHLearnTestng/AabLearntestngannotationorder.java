@@ -13,6 +13,8 @@ AfterClass
 AfterTest
 AfterSuite
 
+Above is the order of testng annotations will get execute
+
      */
 
 

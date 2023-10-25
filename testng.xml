@@ -11,7 +11,7 @@
             <class name="org.test.AHLearnTestng.AabLearntestngannotationorder"></class>
             <class name="org.test.AHLearnTestng.AbaLearntestngskiptest"></class>
             <class name="org.test.AHLearnTestng.AbbLearntestnghardassert"></class>
-            <class name="org.test.AHLearnTestng.AgaLearntestngparameterization"></class>
+            <class name="org.test.AHLearnTestng.AbeLearntestngparameterization"></class>
         </classes>
     </test>
 </suite>

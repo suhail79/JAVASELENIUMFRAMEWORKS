@@ -3,6 +3,14 @@ package org.test.AHLearnTestng;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+/*
+
+if we are using Hard Assert in testng then if  one hard asset scenario gets failed
+then all other lines will not get executed in the same test it will be considered as failed.
+
+
+ */
 public class AbbLearntestnghardassert {
 
 
