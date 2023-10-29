@@ -11,14 +11,12 @@ If method1 gets failed then it won't execute rest of the methods
 
 import org.testng.annotations.Test;
 
-public class AczLearntestngdependencymanagement {
+public class AcdLearntestngdependencymanagement {
 
 
     @Test
     public void Method1() {
-        //System.out.println("this is method1");
-      
-
+        System.out.println("this is method1");
     }
 
 

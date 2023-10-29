@@ -7,8 +7,11 @@ Array list, linked list, vector
 
 Index based
 allows duplicate
-follows insertion order
+follows only insertion order
 allow for & enhaced for loop.
+
+
+
  */
 public class Aialearncollectionlist {
     public static void main(String[] args) {

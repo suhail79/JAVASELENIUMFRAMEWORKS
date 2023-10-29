@@ -9,7 +9,7 @@ public class AaalearnEncapsulation {
 
    *combining methods & variables in single place
 
-   *restricting the scope of methods & variables by using access specifiers (public & private)
+   *restricting the scope of methods & variables by using access modifiers (public & private)
 
      */
 

@@ -1,62 +1,54 @@
 package org.test.AHLearnTestng;
 
-public class  AfaLearntestngGroups {
-    /*
+import org.testng.annotations.Test;
 
-Groups in TestNG
-=================
-
-@Test(groups = "smoke")
-    public void testMethod1() {
-        // Test code
-    }
-
-    @Test(groups = "regression")
-    public void testMethod2() {
-        // Test code
-    }
-
-    @Test(groups = { "smoke", "regression" })
-    public void testMethod3() {
-        // Test code
-    }
-
-    @Test(groups = "other")
-    public void testMethod4() {
-        // Test code
-    }
-
+/*
 
 Executing this Groups in XML file
 ================================
-
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="MyTestSuite">
-    <test name="SmokeTests">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="smoketest">
         <groups>
+
             <run>
-                <include name="smoke" />
-                <exclude name="other" />
+                <exclude name="smoke"></exclude>
+               // we can only use any one at a time include or exclude
+                <include name="regression"></include>
             </run>
+
         </groups>
         <classes>
-            <class name="com.example.tests.ExampleTest" />
-        </classes>
-    </test>
-
-    <test name="RegressionTests">
-        <groups>
-            <run>
-                <include name="regression" />
-                 <exclude name="other" />
-            </run>
-        </groups>
-        <classes>
-            <class name="com.example.tests.ExampleTest" />
+            <class name="org.test.AHLearnTestng.AcbLearntestngGroups">
+            </class>
         </classes>
     </test>
 </suite>
 
 
-     */
+ */
+public class AcbLearntestngGroups {
+
+    @Test(groups = "smoke")
+    public void testMethod1() {
+        System.out.println("this defines testmethod1");
+    }
+
+    @Test(groups = "regression")
+    public void testMethod2() {
+        System.out.println("this defines testmethod2");
+    }
+
+    @Test(groups = {"smoke", "regression"})
+    public void testMethod3() {
+        System.out.println("this defines testmethod3");
+    }
+
+    @Test(groups = "other")
+    public void testMethod4() {
+        System.out.println("this defines testmethod4");
+    }
+
+
 }

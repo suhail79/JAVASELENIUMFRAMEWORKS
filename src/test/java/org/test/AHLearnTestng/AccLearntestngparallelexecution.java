@@ -1,9 +1,7 @@
 package org.test.AHLearnTestng;
 
-public class AhaLearntestngparallelexecution {
-    /*
-
-    Parallel execution at Test level
+/*
+Parallel execution at Test level
     ==================================
 
     <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
@@ -45,4 +43,9 @@ Parallel execution at method level
 
 
      */
+
+
+public class AccLearntestngparallelexecution {
+
+
 }

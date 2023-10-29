@@ -1,9 +1,14 @@
 package org.test.AALearnjava;
 
 /*
-   Try
-   Catch
-   Finally
+
+• Try – contains error message.
+• Catch – contains solution for the error.
+• Finally – prints the output in both cases (error and no error).
+• Throw – handle only one exception which is mentioned inside method.
+• Throws – handles multiple exceptions which is mentioned in the method level.
+
+
 
     combination:-
     ---------------

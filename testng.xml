@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="/Users/mohammadsuhail/IdeaProjects/Learnjavaselenium/src/test/java/org/test/AHLearnTestng/AaaLearntestngannotationpriority.java">
-        <parameter name="param1" value="Mohammad"></parameter>
-        <parameter name="param2" value="10"></parameter>
+    <test name="smoketest">
+        <groups>
+            <run>
+                <exclude name="smoke"></exclude>
+            </run>
 
+        </groups>
         <classes>
-            <class name="org.test.AHLearnTestng.AaaLearntestngannotationpriority"></class>
-            <class name="org.test.AHLearnTestng.AabLearntestngannotationorder"></class>
-            <class name="org.test.AHLearnTestng.AbaLearntestngskiptest"></class>
-            <class name="org.test.AHLearnTestng.AbbLearntestnghardassert"></class>
-            <class name="org.test.AHLearnTestng.AbeLearntestngparameterization"></class>
+            <class name="org.test.AHLearnTestng.AcbLearntestngGroups">
+            </class>
         </classes>
     </test>
 </suite>
