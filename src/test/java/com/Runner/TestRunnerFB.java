@@ -9,6 +9,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features/Facebooklogin.feature",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         stepNotifications = true,
+        plugin = {"pretty", "junit:sample.xml",
+                "html:target",
+                "json:target\\output.json"},
         dryRun = false)
 public class TestRunnerFB {
 

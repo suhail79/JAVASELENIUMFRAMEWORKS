@@ -2,9 +2,25 @@ package org.test.ABLearnselenium;
 
 public class AiaLearnSynchronizationWaits {
 
+/*
+
+Waits are essential because web applications can be dynamic, and the elements on a page
+may not be immediately available, causing synchronization issues between
+the automation script and the web page's loading or rendering process.
+
+1.element unavailability
+2.takes time to load page
+3.Asynchronous behaviour
+
+
+
+ */
+
+
 
     /*
-Implicit wait and explicit wait are two different techniques used in test automation to handle synchronization issues when working with web applications. They both serve the purpose of waiting for certain conditions to be met before proceeding with further test steps, but they work in slightly different ways:
+Implicit wait and explicit wait are two different techniques used in test automation to handle synchronization issues when working with web applications.
+They both serve the purpose of waiting for certain conditions to be met before proceeding with further test steps, but they work in slightly different ways:
 
 1. Implicit Wait:
 
@@ -23,13 +39,6 @@ driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.get("https://example.com");
 WebElement element = driver.findElement(By.id("someElementId"));
 
-
-        */
-
-
-
-
-    /*
 
 2. Explicit Wait: it allows us to command webdriver to wait until several conditions are met.
 

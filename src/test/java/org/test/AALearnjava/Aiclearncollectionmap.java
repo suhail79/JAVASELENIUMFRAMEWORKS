@@ -28,7 +28,13 @@ public class Aiclearncollectionmap {
             System.out.println(entry.getKey());
             System.out.println(entry.getValue());
         }
-
+/*
+         if (mp.containsKey(2) & mp.containsValue("oracle")) {
+            System.out.println("key & value combination present");
+        } else {
+            System.out.println("not ky value available");
+        }
+ */
 
 /*
         System.out.println(mp.keySet());

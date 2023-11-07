@@ -1,0 +1,425 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-31T06:11:14.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 951000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beformethod()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "login the page with multiple credentials",
+        "description": "",
+        "id": "facebook-login-page-validation;login-the-page-with-multiple-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 134625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2828697375,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user try to launch facebook URL",
+            "match": {
+              "location": "FBLogin.userTryToLaunchFacebookURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125481791,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"suhail001@gmail.com\" and \"suhail001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suhail001@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"suhail001\"",
+                  "offset": 38
+                }
+              ],
+              "location": "FBLogin.userEntersAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30666291,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "FBLogin.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7709556916,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies the login functionality",
+            "match": {
+              "location": "FBLogin.userVerifiesTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102562250,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to quit the browser",
+            "match": {
+              "location": "FBLogin.userHasToQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T06:11:25.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 43625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beformethod()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "login the page with multiple credentials",
+        "description": "",
+        "id": "facebook-login-page-validation;login-the-page-with-multiple-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 46208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744845083,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user try to launch facebook URL",
+            "match": {
+              "location": "FBLogin.userTryToLaunchFacebookURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110048792,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"suhail002@gmail.com\" and \"suhail002\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suhail002@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"suhail002\"",
+                  "offset": 38
+                }
+              ],
+              "location": "FBLogin.userEntersAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31266041,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "FBLogin.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14542655042,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies the login functionality",
+            "match": {
+              "location": "FBLogin.userVerifiesTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99813375,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to quit the browser",
+            "match": {
+              "location": "FBLogin.userHasToQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T06:11:41.812Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beformethod()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "login the page with multiple credentials",
+        "description": "",
+        "id": "facebook-login-page-validation;login-the-page-with-multiple-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 31375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1746519583,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user try to launch facebook URL",
+            "match": {
+              "location": "FBLogin.userTryToLaunchFacebookURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113064333,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"suhail003@gmail.com\" and \"suhail003\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suhail003@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"suhail003\"",
+                  "offset": 38
+                }
+              ],
+              "location": "FBLogin.userEntersAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30531875,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "FBLogin.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6659712459,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies the login functionality",
+            "match": {
+              "location": "FBLogin.userVerifiesTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85400792,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to quit the browser",
+            "match": {
+              "location": "FBLogin.userHasToQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T06:11:50.450Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beformethod()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "login the page with multiple credentials",
+        "description": "",
+        "id": "facebook-login-page-validation;login-the-page-with-multiple-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 46875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftermethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1675067084,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user try to launch facebook URL",
+            "match": {
+              "location": "FBLogin.userTryToLaunchFacebookURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112649792,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"suhail004@gmail.com\" and \"suhail004\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suhail004@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"suhail004\"",
+                  "offset": 38
+                }
+              ],
+              "location": "FBLogin.userEntersAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32347542,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks the login button",
+            "match": {
+              "location": "FBLogin.userClicksTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7288694792,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies the login functionality",
+            "match": {
+              "location": "FBLogin.userVerifiesTheLoginFunctionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97383083,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to quit the browser",
+            "match": {
+              "location": "FBLogin.userHasToQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login page Validation",
+    "description": "",
+    "id": "facebook-login-page-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Facebooklogin.feature",
+    "tags": []
+  }
+]

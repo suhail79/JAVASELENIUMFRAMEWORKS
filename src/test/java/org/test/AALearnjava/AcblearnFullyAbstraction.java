@@ -1,6 +1,6 @@
 package org.test.AALearnjava;
 
-public class AcblearnFullyAbstraction implements AcalearnFullyAbstraction {
+public class  AcblearnFullyAbstraction implements AcalearnFullyAbstraction {
 
 
     @Override

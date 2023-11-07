@@ -22,6 +22,7 @@ public class Aialearncollectionlist {
         li.add(65);
         li.add(71);
 
+
         //  System.out.println(li.get(2));
         //System.out.println(li.size());
         //System.out.println(li.indexOf(10));

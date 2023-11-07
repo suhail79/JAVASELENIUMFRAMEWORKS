@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="45.201048">
+    <testcase classname="Facebook login page Validation" name="login the page with multiple credentials" time="10.823052">
+        <system-out><![CDATA[Given user try to launch facebook URL.......................................passed
+When user enters "suhail001@gmail.com" and "suhail001"......................passed
+And user clicks the login button............................................passed
+Then user verifies the login functionality..................................passed
+Then user has to quit the browser...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook login page Validation" name="login the page with multiple credentials 2" time="16.531365">
+        <system-out><![CDATA[Given user try to launch facebook URL.......................................passed
+When user enters "suhail002@gmail.com" and "suhail002"......................passed
+And user clicks the login button............................................passed
+Then user verifies the login functionality..................................passed
+Then user has to quit the browser...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook login page Validation" name="login the page with multiple credentials 3" time="8.637709">
+        <system-out><![CDATA[Given user try to launch facebook URL.......................................passed
+When user enters "suhail003@gmail.com" and "suhail003"......................passed
+And user clicks the login button............................................passed
+Then user verifies the login functionality..................................passed
+Then user has to quit the browser...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook login page Validation" name="login the page with multiple credentials 4" time="9.208922">
+        <system-out><![CDATA[Given user try to launch facebook URL.......................................passed
+When user enters "suhail004@gmail.com" and "suhail004"......................passed
+And user clicks the login button............................................passed
+Then user verifies the login functionality..................................passed
+Then user has to quit the browser...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

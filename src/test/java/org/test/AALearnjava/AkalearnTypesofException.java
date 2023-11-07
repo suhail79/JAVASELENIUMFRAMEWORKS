@@ -2,6 +2,15 @@ package org.test.AALearnjava;
 
 public class AkalearnTypesofException {
     /*
+    In Java, an exception is an event that occurs during the execution of a program and
+     disrupts the normal flow of the program. Exceptions are used to handle errors and
+     unexpected situations that may arise during the execution of a Java program.
+     When an exception occurs, it is said to be "thrown," and the program's execution can be interrupted
+     and transferred to a special code block called an exception handler.
+
+
+
+
     Exception Types
     ===============
     1.Unchecked Exception

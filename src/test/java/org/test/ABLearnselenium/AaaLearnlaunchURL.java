@@ -5,7 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class AaaLearnlaunchURL {
     public static void main(String[] args) {
@@ -26,6 +29,8 @@ public class AaaLearnlaunchURL {
         driver.findElement(By.id("loginbutton")).click();
 
         System.out.println("program done");
+
+        WebDriverWait wait= new WebDriverWait(driver,20);
 
         driver.close();
 
