@@ -18,12 +18,13 @@ Two types
 
 public abstract class AbalearnpartialAbstraction {
 
-public void Earth(){
-    System.out.println("people lives in earth");
-}
+    public void Earth() {
+        System.out.println("people lives in earth");
+    }
 
-public abstract void Moon();
+    public abstract void Moon();
 
-public abstract void Sun();
+    public abstract void Sun();
+
 
 }
