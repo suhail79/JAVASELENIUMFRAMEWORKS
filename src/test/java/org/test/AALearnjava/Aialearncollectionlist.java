@@ -1,18 +1,33 @@
+/*
+
+*Index based
+*allows duplicate
+*prints value in insertion order
+*supports both for & enhanced for loop.
+*we can use add() method to add value in list.
+
+Types:--Array list, linked list, vector
+
+Array List:-
+=============
+Best:- Retrieving & searching is easy using index value
+worst:-Insertion / deletion is not easy, it makes performance issue.
+
+linked list:-
+==============
+Best:-Insertion / deletion is not easy, it makes performance issue
+worst:- Retrieving & searching is easy using index value
+
+Arraylist:---             Vector:---
+=============            =============
+Asynchronous              synchronous
+non-Threadsafe            ThreadSafe
+
+ */
 package org.test.AALearnjava;
 
 import java.util.*;
 
-/*
-Array list, linked list, vector
-
-Index based
-allows duplicate
-follows only insertion order
-allow for & enhaced for loop.
-
-
-
- */
 public class Aialearncollectionlist {
     public static void main(String[] args) {
         List<Integer> li = new ArrayList<>();

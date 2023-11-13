@@ -37,7 +37,7 @@ public class Aaglearnprintduplicatecharactersinstring {
         System.out.println("Duplicate characters in '" + str + "':");
         for (Map.Entry<Character, Integer> entry : entries) {
             if (entry.getValue() >= 1) {
-                System.out.println("'" + entry.getKey() + "' appears " + entry.getValue() + " times");
+                System.out.println(entry.getKey() + ":-" + entry.getValue() );
             }
         }
     }

@@ -41,8 +41,6 @@ public class Agalearncontrolstatments {
      */
 
 
-
-
     public static void main(String[] args) {
 
         String name = "arfaat";

@@ -15,5 +15,21 @@ public class Aaelearnlengthofstring {
 
         }
         System.out.println(measure);
+
+        /*
+
+        Using enhanced for loop
+
+         String name = "suhaildjggf";
+        int measure = 0;
+
+        char[] charArray = name.toCharArray();
+
+        for (char c : charArray) {
+            measure++;
+        }
+        System.out.println(measure);
+
+         */
     }
 }

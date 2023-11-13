@@ -1,19 +1,38 @@
-package org.test.AALearnjava;
+/*
 
+ *it is combination of key & value
+ *key won't allow duplicate, value allows duplicate
+ *supports only enhanced for loop.
+ *we can use put() method to insert key & value.
+
+
+Hashmap:-
+==========
+* prints value in Random order.
+* Key Allows single Null & value allow n number of Null
+
+Linked hashmap:-
+=================
+* prints value in Insertion order.
+*Key Allows single Null & value allow n number of Null
+
+TreeMap:-
+=========
+* prints value in Ascending order.
+* Key doesn't allow Null & value allow n number of Null
+
+Hashtable:-
+===========
+* prints value in Random order.
+* Key & value ignores Null
+
+ */
+package org.test.AALearnjava;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-/*
-
- *key & value combination
- *key doesn't allow duplicate
- *value allows duplicate
-
- *only allows enhanced for loop
-
- */
 public class Aiclearncollectionmap {
     public static void main(String[] args) {
         Map<Integer, String> mp = new HashMap<Integer, String>();

@@ -22,7 +22,7 @@ public class AkblearnExceptionHandling {
         try {
             System.out.println(4 / 0);
         } catch (ArithmeticException e) {
-            System.out.println("handled");
+            System.out.println("Handled");
         } finally {
             System.out.println("Done");
         }
