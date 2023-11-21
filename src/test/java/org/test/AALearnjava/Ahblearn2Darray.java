@@ -49,9 +49,9 @@ public class Ahblearn2Darray {
  */
 
 
-        for (int[] x : a) {
-            for (int y : x) {
-                System.out.println(y);
+        for (int[] i : a) {
+            for (int j : i) {
+                System.out.println(j);
             }
         }
 
