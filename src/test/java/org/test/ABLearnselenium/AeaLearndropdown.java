@@ -19,13 +19,16 @@ public class AeaLearndropdown {
         Select s1 = new Select(dropdown1);
         s1.selectByIndex(3);
 
+
+
         /*
         s1.selectByValue();
         s1.selectByIndex();
         s1.selectByVisibleText();
         s1.getAllSelectedOptions();   //List<WebElement>
         s1.getOptions();              //List<WebElement>
-
+        s1.getFirstSelectedOption();   //WebElement
+        s1.deselectAll();
          */
 
         List<WebElement> allSelectedOptions = s1.getAllSelectedOptions();

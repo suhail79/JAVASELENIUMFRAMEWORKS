@@ -1,7 +1,11 @@
 package org.test.AALearnjava;
 
 /*
-parameterized constructor where the parameters are passing through the constructor
+In Java, a class can have multiple constructors, but they must have different parameter lists.
+This is known as constructor overloading. Each constructor provides a
+different way to initialize an object of the class.
+
+This is otherwise known as constructor overloading
 
  */
 

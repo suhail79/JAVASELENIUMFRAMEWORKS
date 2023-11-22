@@ -44,8 +44,8 @@ public class Aiclearncollectionmap {
         Set<Map.Entry<Integer, String>> entries = mp.entrySet();
 
         for (Map.Entry<Integer, String> entry : entries) {
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
+            System.out.println(entry.getKey()+","+ entry.getValue());
+            //System.out.println(entry.getValue());
         }
 /*
          if (mp.containsKey(2) & mp.containsValue("oracle")) {

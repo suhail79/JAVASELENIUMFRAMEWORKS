@@ -19,6 +19,7 @@ public class Afalearndefaultconstructor {
         System.out.println("method2");
     }
 
+
     public static void main(String[] args) {
         Afalearndefaultconstructor a = new Afalearndefaultconstructor();
     }

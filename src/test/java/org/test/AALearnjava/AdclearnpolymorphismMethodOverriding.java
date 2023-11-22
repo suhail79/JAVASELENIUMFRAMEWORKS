@@ -17,10 +17,44 @@ public class AdclearnpolymorphismMethodOverriding extends AdblearnpolymorphismMe
     }
 
     public static void main(String[] args) {
+
+        //2=2 [this will work fine] [this will print overridden value]
+/*
         AdclearnpolymorphismMethodOverriding or = new AdclearnpolymorphismMethodOverriding();
         or.Name();
         or.property();
         or.asset();
+ */
+
+
+        // 1=2 [this will work fine] [this will print overridden value]
+         /*
+        AdblearnpolymorphismMethodOverriding x = new AdclearnpolymorphismMethodOverriding();
+
+        x.Name();
+        x.property();
+        x.asset();
+        */
+
+        // 1=1 [this will work fine] [this will print normal value of class1 ]
+        /*
+        AdblearnpolymorphismMethodOverriding y = new AdblearnpolymorphismMethodOverriding();
+        y.Name();
+        y.property();
+        y.asset();
+         */
+
+        //2=1 [this will throw error]
+
+        /*
+        AdclearnpolymorphismMethodOverriding z = new AdblearnpolymorphismMethodOverriding();
+
+        z.Name();
+        z.asset();
+        z.property();
+        */
+
+
     }
 
 }
