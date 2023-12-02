@@ -4,6 +4,7 @@ package org.test.AALearnjava;
 1.class name and method name should be same
 2.we don't use return type (void) in the constructor.
 3.no need to call the method using object it will automatically execute once the object is created.
+4.we can declare only one Default constructor in a class.
 
 two type:-
 
