@@ -46,7 +46,7 @@ public class AdclearnpolymorphismMethodOverriding extends AdblearnpolymorphismMe
 
         //2=1 [this will throw error]
 
-        /*
+/*
         AdclearnpolymorphismMethodOverriding z = new AdblearnpolymorphismMethodOverriding();
 
         z.Name();

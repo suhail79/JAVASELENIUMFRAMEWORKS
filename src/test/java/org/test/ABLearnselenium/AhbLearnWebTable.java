@@ -11,7 +11,6 @@ public class AhbLearnWebTable {
 
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://example.com/your-webpage");
 
