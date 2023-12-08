@@ -17,7 +17,13 @@ public class Aaclearnswap2numbers {
 
         System.out.println("After swapping numbers a value is " + a);
         System.out.println("After swapping numbers b value is " + b);
+/*
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.printf(String.valueOf(a));
 
+ */
 
     }
 }
