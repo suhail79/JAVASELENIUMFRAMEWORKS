@@ -15,8 +15,10 @@ public class AaalearnEncapsulation {
 
 
     private String name;
-    private int roll;
-    private char initial;
+
+    private int age;
+
+    private long phn;
 
     public String getName() {
         return name;
@@ -26,19 +28,20 @@ public class AaalearnEncapsulation {
         this.name = name;
     }
 
-    public int getRoll() {
-        return roll;
+
+    public int getAge() {
+        return age;
     }
 
-    public void setRoll(int roll) {
-        this.roll = roll;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public char getInitial() {
-        return initial;
+    public long getPhn() {
+        return phn;
     }
 
-    public void setInitial(char initial) {
-        this.initial = initial;
+    public void setPhn(long phn) {
+        this.phn = phn;
     }
 }

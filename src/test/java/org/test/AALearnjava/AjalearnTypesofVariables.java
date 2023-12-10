@@ -1,8 +1,5 @@
 package org.test.AALearnjava;
-
-public class AjalearnTypesofVariables {
-
-    /*
+/*
 
     Types of Variables
     -------------------
@@ -23,7 +20,7 @@ public class AjalearnTypesofVariables {
      2.Instance / Global Variable
 
 *it is declared inside the class and outside the methods
-*we can use access specifiers for this type
+*we can use access modifiers for this type
 *it has default value as below
 
     private int number;      // Default value is 0
@@ -52,7 +49,26 @@ Static method----->classname.method name ||method name
 
 *If a variable is declared as final then we cannot change the value assigned.
 
-
-
      */
+
+import org.prac.seleniumpractice.practicerobot;
+
+public class AjalearnTypesofVariables {
+
+    //instance Variable
+    public int a = 10;
+
+    private void method1() {
+
+        //Local Variable (b)
+        int b = 23;
+        System.out.println(b);
+
+    }
+
+    public static void main(String[] args) {
+        AjalearnTypesofVariables x = new AjalearnTypesofVariables();
+        x.method1();
+        System.out.println(x.a);
+    }
 }

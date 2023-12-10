@@ -1,5 +1,7 @@
 package org.test.AALearnjava;
 
+import org.prac.seleniumpractice.practiceforinterview1;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -16,36 +18,44 @@ public class AablearnEncapsulation {
 
     public static void main(String[] args) {
 
-        AaalearnEncapsulation aa = new AaalearnEncapsulation();
+        AaalearnEncapsulation p1 = new AaalearnEncapsulation();
+        p1.setName("suhail");
+        p1.setAge(29);
+        p1.setPhn(9876543210l);
 
-        aa.setName("Suhail");
-        aa.setRoll(11);
-        aa.setInitial('S');
+        AaalearnEncapsulation p2 = new AaalearnEncapsulation();
+        p2.setName("arfaat");
+        p2.setAge(18);
+        p2.setPhn(7788992235l);
+
+        AaalearnEncapsulation p3 = new AaalearnEncapsulation();
+        p3.setName("salman");
+        p3.setAge(16);
+        p3.setPhn(9988762352l);
+
+
+        List<AaalearnEncapsulation> li = new ArrayList<>();
+
+        li.add(p1);
+        li.add(p2);
+        li.add(p3);
+
+        for (AaalearnEncapsulation x : li) {
+            System.out.println(x.getName());
+            System.out.println(x.getAge());
+            System.out.println(x.getPhn());
+        }
+
+
 /*
-        List<AaalearnEncapsulation> li = new ArrayList<AaalearnEncapsulation>();
-        li.add(aa);
+        for (int i = 0; i < li.size(); i++) {
+            System.out.println("Name is " + li.get(i).getName());
+            System.out.println("Age is " + li.get(i).getAge());
+            System.out.println("phone is " + li.get(i).getPhn());
+        }
 
  */
 
-        //normal For loop
-
-       /* for (int i = 0; i < li.size(); i++) {
-            System.out.println(li.get(i).getName());
-            System.out.println(li.get(i).getRoll());
-            System.out.println(li.get(i).getInitial());
-        }
-*/
-
-        //enhanced for loop
-
-        Set<AaalearnEncapsulation> li = new HashSet<>();
-        li.add(aa);
-
-        for (AaalearnEncapsulation ab : li) {
-            System.out.println(ab.getName());
-            System.out.println(ab.getRoll());
-            System.out.println(ab.getInitial());
-        }
 
     }
 }
