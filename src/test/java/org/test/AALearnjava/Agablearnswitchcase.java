@@ -1,11 +1,8 @@
-package org.prac.seleniumpractice;
+package org.test.AALearnjava;
 
-import java.util.Map;
-
-public class pracprog1 {
+public class Agablearnswitchcase {
     public static void main(String[] args) {
-
-        char Grade = 'E';
+        char Grade = 'A';
 
         switch (Grade) {
 
@@ -29,7 +26,6 @@ public class pracprog1 {
 
 
         }
-
 
     }
 }
