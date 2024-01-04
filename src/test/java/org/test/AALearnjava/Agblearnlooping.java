@@ -3,25 +3,26 @@ package org.test.AALearnjava;
 public class Agblearnlooping {
     public static void main(String[] args) {
 
-        //For Loop
-        for (int i = 0; i < 2; i++) {
+        System.out.println("For loop value");
+        for (int i = 0; i < 5; i++) {
             System.out.println(i);
         }
 
-        //While Loop
+        System.out.println("while Loop value");
         int j = 0;
-        while (j < 2) {
-            System.out.println("while loop");
+        while (j < 5) {
+            System.out.println(j);
             j++;
         }
-        //Do while
+
+        System.out.println("Do while value");
         int k = 0;
         do {
-            System.out.println("Do while");
+
+            System.out.println(k);
             k++;
-        } while (k < 2);
-
-
+        }
+        while (k < 5);
     }
 
 }

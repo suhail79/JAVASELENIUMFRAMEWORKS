@@ -1,20 +1,21 @@
 package org.prac.seleniumpractice;
 
 import java.util.Map;
+import java.util.Scanner;
 
 public class pracprog1 {
     public static void main(String[] args) {
 
 
-        String name = "Suhail";
-        int reverse = 0;
-
-        char[] charArray = name.toCharArray();
-
-        for (char c : charArray) {
-            reverse++;
+        try {
+            System.out.println(4 / 0);
         }
-        System.out.println(reverse);
+        catch (NullPointerException e) {
+            System.out.println("exception catched as arithmetic");
+        } finally {
+            System.out.println("Handled");
+        }
+
 
     }
 }

@@ -42,11 +42,6 @@ public class Aialearncollectionlist {
         //System.out.println(li.size());
         //System.out.println(li.indexOf(10));
 
-
-        
-        
-        
-        
 /*
         for (int i = 0; i < li.size(); i++) {
             System.out.println(li.get(i));
