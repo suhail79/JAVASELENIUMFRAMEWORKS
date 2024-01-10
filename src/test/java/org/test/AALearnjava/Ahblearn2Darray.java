@@ -2,7 +2,7 @@ package org.test.AALearnjava;
 
 import java.util.Scanner;
 
-public class Ahblearn2Darray {
+public class  Ahblearn2Darray {
     public static void main(String[] args) {
 
         /*

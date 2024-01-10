@@ -37,7 +37,6 @@ public class Aiblearncollectionset {
         st.add(19);
         st.add(82);
 
-
         //  System.out.println(st);
 
         for (Integer x : st) {

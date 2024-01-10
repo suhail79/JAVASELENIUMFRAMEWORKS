@@ -1,5 +1,7 @@
 package org.test.ABLearnselenium;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class AiaLearnSynchronizationWaits {
 
 /*
@@ -87,6 +89,7 @@ alertIsPresent();
 
 
      */
+
 
 
 }
