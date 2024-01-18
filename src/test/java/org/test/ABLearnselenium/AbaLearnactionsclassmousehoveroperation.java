@@ -13,7 +13,7 @@ import java.time.Duration;
 
 Actions class is used to perform mouse Actions
 
-*Mouse Hover operation
+*Mouse Hover operation [move to element]
 *Drag & Drop
 *Double click
 *context click--right click

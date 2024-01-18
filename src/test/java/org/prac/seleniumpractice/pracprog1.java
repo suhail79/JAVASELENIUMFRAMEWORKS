@@ -1,24 +1,10 @@
 package org.prac.seleniumpractice;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
-public class pracprog1 {
-    public static void main(String[] args) {
+import java.util.Scanner;
+import java.util.SortedMap;
 
-        String name = "INDIA";
-        String unique = "";
+public abstract class pracprog1 {
 
-        char[] charArray = name.toCharArray();
 
-        for (char c : charArray) {
-            if (name.indexOf(c)==name.lastIndexOf(c)) {
-                unique += c;
-            }
-        }
-        System.out.println(unique);
-
-    }
 }

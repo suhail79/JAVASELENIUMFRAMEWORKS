@@ -14,7 +14,13 @@ public class AaealearnToUpperCasestring {
         }
 
         System.out.println(upper);
+
+        /*
+      method 2
+      String name = "Suhail";
+       String upperCase = name.toUpperCase();
+        System.out.println(upperCase);
+
+         */
     }
-
-
 }

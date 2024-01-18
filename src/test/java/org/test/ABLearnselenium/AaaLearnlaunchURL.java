@@ -30,7 +30,6 @@ public class AaaLearnlaunchURL {
 
         System.out.println("program done");
 
-        WebDriverWait wait= new WebDriverWait(driver,20);
 
         driver.close();
 

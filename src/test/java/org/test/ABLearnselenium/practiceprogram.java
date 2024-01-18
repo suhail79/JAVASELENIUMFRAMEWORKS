@@ -11,14 +11,23 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class practiceprogram {
-    public static void main(String[] args) {
-       
-        WebDriver driver=new ChromeDriver();
-        WebElement aa = driver.findElement(By.id("zbvcc"));
+    public static void main(String[] args) throws InterruptedException {
 
-        List<WebElement> ab = aa.findElements(By.id("asghdhcx"));
+        WebDriver driver = new ChromeDriver();
+
+        driver.manage().window().maximize();
+
+        Wait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(10))
+                .pollingEvery(Duration.ofSeconds(5))
+                .ignoring(NoSuchElementException.class);
 
 
+        driver.get("https://www.makemytrip.com/");
+
+        driver.findElement(By.xpath("//a[@class='primaryBtn font24 latoBold widgetSearchBtn ']")).click();
+
+        //driver.findElement(By.xpath("//span[@class='bgProperties  overlayCrossIcon icon20']")).click();
 
     }
 }

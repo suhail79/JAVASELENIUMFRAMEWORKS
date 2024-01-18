@@ -1,6 +1,7 @@
 package org.prac.seleniumpractice;
 
-public class pracprog2  {
+import java.util.*;
 
+public class pracprog2 {
 
 }
