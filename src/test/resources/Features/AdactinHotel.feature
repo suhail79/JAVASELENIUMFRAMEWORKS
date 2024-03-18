@@ -9,6 +9,7 @@ Feature: User try to login into Adactin Hotel page
     Then user verifies the login functionality successful
     Then user has to quit the browser
     #Then user has to click logout after some time
+  src/test/java/org/prac/seleniumpractice
 
     Examples:
       | Username            | Password  |

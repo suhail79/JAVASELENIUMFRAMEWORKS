@@ -1,10 +1,16 @@
 package org.prac.seleniumpractice;
 
+public class pracprog1 {
 
-import java.util.Scanner;
-import java.util.SortedMap;
+    private String name;
 
-public abstract class pracprog1 {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 
 }

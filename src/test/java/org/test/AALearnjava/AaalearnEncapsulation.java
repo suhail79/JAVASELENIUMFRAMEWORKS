@@ -12,8 +12,6 @@ public class AaalearnEncapsulation {
    *restricting the scope of methods & variables by using access modifiers (public & private)
 
      */
-
-
     private String name;
 
     private int age;
@@ -27,7 +25,6 @@ public class AaalearnEncapsulation {
     public void setName(String name) {
         this.name = name;
     }
-
 
     public int getAge() {
         return age;
