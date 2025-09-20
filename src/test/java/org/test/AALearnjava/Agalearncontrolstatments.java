@@ -53,8 +53,5 @@ public class Agalearncontrolstatments {
         } else {
             System.out.println("name is different");
         }
-
-
     }
-
 }

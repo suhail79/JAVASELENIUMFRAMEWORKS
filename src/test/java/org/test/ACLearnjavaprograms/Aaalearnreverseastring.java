@@ -14,12 +14,12 @@ public class Aaalearnreverseastring {
             reverse = reverse + chararray[i];
 
             //to print letter by letter in reverse order use System.out.println(); inside the loop
-            //   System.out.println(reverse);
+               System.out.println(reverse);
 
         }
         //to print whole name in single line use System.out.println(); outside the loop
 
-        System.out.println(reverse);
+       // System.out.println(reverse);
 /*
 
 

@@ -36,6 +36,7 @@ public class AdalearnpolymorphismMethodOverloading {
     public static void main(String[] args) {
         AdalearnpolymorphismMethodOverloading obj = new AdalearnpolymorphismMethodOverloading();
         obj.emp("Suhail");
+        obj.emp("Mohammad");
         obj.id(25);
         obj.ini('S');
         obj.phn(9600874569l);

@@ -20,7 +20,6 @@ public class AaealearnToUpperCasestring {
       String name = "Suhail";
        String upperCase = name.toUpperCase();
         System.out.println(upperCase);
-
          */
     }
 }

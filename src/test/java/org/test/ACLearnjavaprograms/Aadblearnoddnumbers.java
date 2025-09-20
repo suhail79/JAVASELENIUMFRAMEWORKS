@@ -33,9 +33,9 @@ public class Aadblearnoddnumbers {
 
     public static void main(String[] args) {
         Aadblearnoddnumbers aa = new Aadblearnoddnumbers();
-        //aa.OddNumbersmethod1();
+        aa.OddNumbersmethod1();
         // aa.oddNumbersmethod2();
         // aa.AlternateOddnumbersmethod1();
-        aa.AlternateOddnumbersmethod2();
+//        aa.AlternateOddnumbersmethod2();
     }
 }

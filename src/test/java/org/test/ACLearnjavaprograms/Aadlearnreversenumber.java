@@ -12,7 +12,5 @@ public class Aadlearnreversenumber {
             a = a / 10;
         }
         System.out.println(b);
-
-
     }
 }

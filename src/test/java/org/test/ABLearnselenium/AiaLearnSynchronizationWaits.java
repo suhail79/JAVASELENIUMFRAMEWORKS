@@ -85,6 +85,23 @@ alertIsPresent();
 
 
 
+1. Implicit Wait:
+
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+2.Explicit Wait:
+
+WebDriverWait wait = new WebDriverWait(driver, 30);
+WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("elementId")));
+
+
+3.Fluent Wait:
+
+Wait<WebDriver> wait = new FluentWait<>(driver)
+    .withTimeout(Duration.ofSeconds(30)) // Maximum wait time
+    .pollingEvery(Duration.ofSeconds(5)) // Polling interval
+    .ignoring(NoSuchElementException.class); // Exception(s) to ignore
 
 
 

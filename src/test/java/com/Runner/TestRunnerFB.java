@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty", "junit:sample.xml",
                 "html:target",
                 "json:target\\output.json"},
-        dryRun = true)
+        dryRun = false)
 public class TestRunnerFB {
 
 }

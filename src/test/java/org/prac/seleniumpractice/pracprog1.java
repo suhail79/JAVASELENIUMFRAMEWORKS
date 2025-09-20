@@ -1,16 +1,12 @@
 package org.prac.seleniumpractice;
 
+import org.apache.poi.ss.formula.atp.Switch;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class pracprog1 {
-
-    private String name;
-
-    public String getName() {
-        return name;
+    public static void main(String[] args) {
+ 
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
 }

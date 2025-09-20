@@ -2,9 +2,9 @@ package org.test.AALearnjava;
 
 public class Agablearnswitchcase {
     public static void main(String[] args) {
-        char Grade = 'A';
+        char initial = 'A';
 
-        switch (Grade) {
+        switch (initial) {
 
             case 'S':
                 System.out.println(">90 <100 percentage");
@@ -23,7 +23,6 @@ public class Agablearnswitchcase {
                 break;
             default:
                 System.out.println("need to re appear for examination");
-
 
         }
     }
