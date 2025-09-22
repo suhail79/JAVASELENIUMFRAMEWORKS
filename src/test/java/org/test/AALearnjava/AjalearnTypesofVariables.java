@@ -43,11 +43,11 @@ Static method----->classname.method name ||method name
 
       4.Final Variable
 
-*If a class is declared as final then we cannot inherit the class
+*If a class is declared as final, then we cannot inherit the class
 
-*If a method is declared as final then we cannot override the method
+*If a method is declared as final, then we cannot override the method
 
-*If a variable is declared as final then we cannot change the value assigned.
+*If a variable is declared as final, then we cannot change the value assigned.
 
      */
 
