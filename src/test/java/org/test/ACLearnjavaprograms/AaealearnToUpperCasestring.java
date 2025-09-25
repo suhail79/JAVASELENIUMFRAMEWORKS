@@ -13,6 +13,7 @@ public class AaealearnToUpperCasestring {
             upper += Character.toUpperCase(c);
         }
 
+
         System.out.println(upper);
 
         /*
