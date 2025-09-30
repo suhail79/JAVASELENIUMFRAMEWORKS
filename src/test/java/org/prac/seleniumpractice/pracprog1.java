@@ -11,32 +11,15 @@ public class pracprog1 {
 
     public static void main(String[] args) {
 
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://www.tutorialspoint.com/selenium/practice/webtables.php");
+        String str1=new String("Hello");
+        String str2=new String("Hello");
+        String str3="Hello";
+        String str4="Hello";
 
-        WebElement element = driver.findElement(By.xpath("//table[@class='table table-striped mt-3']"));
-        List<WebElement> row = element.findElements(By.tagName("tr"));
+        System.out.println(str1 == str2);
+        System.out.println(str3 == str4);
+        System.out.println(str3 == str1);
+        System.out.println(str1.equals(str2));
 
-        for (WebElement data : row) {
-            List<WebElement> td = data.findElements(By.tagName("td"));
-            if (td.isEmpty()) {
-                continue;
-            }
-            String FirstName = td.get(0).getText();
-            String LastName = td.get(1).getText();
-            String Age = td.get(2).getText();
-            String Email = td.get(3).getText();
-            String Salary = td.get(4).getText();
-            String Department = td.get(5).getText();
-
-            System.out.println("Name:- " + FirstName + " " + LastName);
-            System.out.println("Age:- " + Age);
-            System.out.println("email:- " + Email);
-            System.out.println("Salary:-" + Salary);
-            System.out.println("Department:- " + Department);
-            System.out.println();
-        }
-
-        driver.quit();
     }
 }
