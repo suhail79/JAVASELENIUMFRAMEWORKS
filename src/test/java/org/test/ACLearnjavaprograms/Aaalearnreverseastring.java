@@ -2,7 +2,7 @@ package org.test.ACLearnjavaprograms;
 
 public class Aaalearnreverseastring {
     public static void main(String[] args) {
-
+/*
         String name = "Mohammad Suhail";
 
         String reverse = "";
@@ -20,11 +20,15 @@ public class Aaalearnreverseastring {
         //to print whole name in single line use System.out.println(); outside the loop
 
        // System.out.println(reverse);
-/*
+
+ */
+//*
 
 
-        using enhanced for loop
+ //       using enhanced for loop
 
+
+//   1. Reverse a String
 
          String name = "Suhail";
         String reverse = "";
@@ -37,6 +41,9 @@ public class Aaalearnreverseastring {
         System.out.println(reverse);
 
 
+
+
+/*
 
       //  2nd Way
 

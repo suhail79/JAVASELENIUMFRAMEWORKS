@@ -7,7 +7,7 @@ public class Aaflearnoccurrenceofcharacterinstring {
     public static void main(String[] args) {
 
         // without Case sensitive using enhanced for loop
-
+/*
         String name = "MohammAdSuHaiL";
 
         char[] charArray = name.toCharArray();
@@ -22,15 +22,18 @@ public class Aaflearnoccurrenceofcharacterinstring {
             }
         }
         System.out.println(name + mp);
-
+ */
 
         //ignoring Case sensitive using enhanced for loop
-/*
+
+
+        // 9. Occurrence of characters in String
+
         String name = "MohammAdSuhail";
 
         char[] charArray = name.toCharArray();
 
-        Map<Character, Integer> mp = new LinkedHashMap<Character, Integer>();
+        Map<Character, Integer> mp = new HashMap<Character, Integer>();
 
         for (char c : charArray) {
             char lowerCase = Character.toLowerCase(c);
@@ -43,7 +46,7 @@ public class Aaflearnoccurrenceofcharacterinstring {
         System.out.println(name + mp);
 
 
- */
+
 
 //Using Normal for loop
 

@@ -6,6 +6,10 @@ import java.util.Set;
 
 public class Aailearnsecondhighestcharactercountinstring {
     public static void main(String[] args) {
+
+
+        // 12. Second-highest character count in string
+
         String name = "HCL interview permission testing";
         char[] charArray = name.toCharArray();
 
@@ -20,12 +24,9 @@ public class Aailearnsecondhighestcharactercountinstring {
         int highestCount = 0;
         int secondHighestCount = 0;
 
-
         Set<Map.Entry<Character, Integer>> entries = mp.entrySet();
         for (Map.Entry<Character, Integer> entry : entries) {
-
             int count = entry.getValue();
-
             if (count > highestCount) {
                 secondHighestChar = entry.getKey();
                 secondHighestCount = highestCount;

@@ -13,7 +13,7 @@ public class Aablearnpalindromeinstring {
 
     public static void main(String[] args) {
 
-
+  /*
         String name = "Madam";
 
         String reverse = "";
@@ -29,24 +29,28 @@ public class Aablearnpalindromeinstring {
             System.out.println("not a palindrome");
         }
 
-        /*
+ */
 
         //using enhanced for loop
 
-         String name = "madam";
+
+
+        //   2. Palindrome in String
+
+        String name = "madam";
         String reverse = "";
 
         char[] charArray = name.toCharArray();
 
         for (char c : charArray) {
             reverse = c + reverse;
-        }if (name.equalsIgnoreCase(reverse)){
+        }
+        if (name.equalsIgnoreCase(reverse)) {
             System.out.println("given is palindrom");
-        }else {
+        } else {
             System.out.println("not palindrome");
         }
 
-         */
 
     }
 }

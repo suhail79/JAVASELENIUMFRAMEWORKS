@@ -25,5 +25,7 @@ public class AdcLearnpromptalert {
 
         promptalert.accept();
 
+        promptalert.getText();
+
     }
 }

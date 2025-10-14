@@ -3,6 +3,11 @@ package org.test.ACLearnjavaprograms;
 public class Abblearnprintuniquecharactersinstring {
     public static void main(String[] args) {
         //method 1
+
+
+
+        // 14. Unique characters in String
+
         String name = "india";
         String unique = "";
         char[] charArray = name.toCharArray();
@@ -12,6 +17,10 @@ public class Abblearnprintuniquecharactersinstring {
             }
         }
         System.out.println(unique);
+
+
+
+
 
         //method 2
 

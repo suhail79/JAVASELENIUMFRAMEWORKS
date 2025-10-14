@@ -2,8 +2,17 @@ package org.test.ACLearnjavaprograms;
 
 public class Aadblearnoddnumbers {
 
+
+    // 4. Find odd Numbers & Alternate odd Numbers
+
     private void OddNumbersmethod1() {
         for (int i = 1; i < 100; i += 2) {
+            System.out.println(i);
+        }
+    }
+
+    private void AlternateOddnumbersmethod1() {
+        for (int i = 1; i < 100; i += 4) {
             System.out.println(i);
         }
     }
@@ -16,11 +25,7 @@ public class Aadblearnoddnumbers {
         }
     }
 
-    private void AlternateOddnumbersmethod1() {
-        for (int i = 1; i < 100; i += 4) {
-            System.out.println(i);
-        }
-    }
+
 
 
     private void AlternateOddnumbersmethod2() {

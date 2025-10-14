@@ -9,7 +9,12 @@ public class Aahlearnnumberofduplicatewordspresentinstring {
 
     public static void main(String[] args) {
 
-        String sentence = "This is a simple sentence with duplicate words. This sentence has some duplicate words.";
+
+
+        // 11. Number of Duplicate words in String
+
+        String sentence = "This is a simple sentence with duplicate words. " +
+                "This sentence has some duplicate words.";
 
         sentence = sentence.toLowerCase();
 

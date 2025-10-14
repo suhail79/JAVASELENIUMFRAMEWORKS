@@ -1,8 +1,17 @@
 package org.test.ACLearnjavaprograms;
 
 public class Aadclearnevennumbers {
+
+
+    // 5. Find even Numbers & Alternate even Numbers
     private void evenNumbersmethod1() {
         for (int i = 2; i < 100; i += 2) {
+            System.out.println(i);
+        }
+    }
+
+    private void Alternateevennumbersmethod1() {
+        for (int i = 2; i < 100; i += 4) {
             System.out.println(i);
         }
     }
@@ -14,13 +23,6 @@ public class Aadclearnevennumbers {
             }
         }
     }
-
-    private void Alternateevennumbersmethod1() {
-        for (int i = 2; i < 100; i += 4) {
-            System.out.println(i);
-        }
-    }
-
 
     private void Alternateevennumbersmethod2() {
         for (int i = 2; i < 100; i++) {

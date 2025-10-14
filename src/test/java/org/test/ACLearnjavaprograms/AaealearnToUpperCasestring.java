@@ -4,6 +4,9 @@ public class AaealearnToUpperCasestring {
 
     public static void main(String[] args) {
 
+
+        // 7. Upper case String
+
         String name = "Suhail";
         String upper = "";
 

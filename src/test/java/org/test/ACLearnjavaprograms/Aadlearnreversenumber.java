@@ -3,6 +3,10 @@ package org.test.ACLearnjavaprograms;
 public class Aadlearnreversenumber {
     public static void main(String[] args) {
 
+
+
+        // 6. Reverse a number
+
         int a = 123456789;
         int b = 0;
 
@@ -12,5 +16,8 @@ public class Aadlearnreversenumber {
             a = a / 10;
         }
         System.out.println(b);
+
+
+
     }
 }
