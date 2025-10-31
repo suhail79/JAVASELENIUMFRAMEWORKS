@@ -2,7 +2,7 @@ package org.test.ACLearnjavaprograms;
 
 public class Abclearnacsendingorderinstring {
     public static void main(String[] args) {
-        String name = "Suhail";
+        String name = "SElenium";
 
         String input = name.toLowerCase();
 
