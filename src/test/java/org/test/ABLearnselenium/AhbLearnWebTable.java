@@ -15,7 +15,6 @@ public class AhbLearnWebTable {
 
 // METHOD 1
 
-//*
         driver.get("https://www.tutorialspoint.com/selenium/practice/webtables.php");
 
         // Locate the table element using its XPath
@@ -44,7 +43,6 @@ public class AhbLearnWebTable {
         }
 
         driver.quit();
-        // */
 
         //**************************************************
 
