@@ -1,7 +1,10 @@
 package org.test.ACLearnjavaprograms;
 
-public class Abclearnacsendingorderinstring {
+public class Abclearnascendingorderinstring {
     public static void main(String[] args) {
+
+        // 15. Ascending order in String
+
         String name = "SElenium";
 
         String input = name.toLowerCase();
