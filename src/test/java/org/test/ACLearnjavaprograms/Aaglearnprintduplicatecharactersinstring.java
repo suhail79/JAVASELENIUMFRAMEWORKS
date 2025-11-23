@@ -65,7 +65,7 @@ public class Aaglearnprintduplicatecharactersinstring {
         Set<Map.Entry<Character, Integer>> entries = mp.entrySet();
         System.out.println("Duplicate characters in '" + sentence + "':");
         for (Map.Entry<Character, Integer> entry : entries) {
-            if (entry.getValue() >= 1) {
+            if (entry.getValue() > 1) {
                 System.out.println(entry.getKey() + ":-" + entry.getValue());
             }
         }
