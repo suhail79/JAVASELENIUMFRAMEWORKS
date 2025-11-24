@@ -16,7 +16,6 @@ public class AhaLearnFrames {
 
         driver.get("https://ui.vision/demo/webtest/frames/");
 
-        Thread.sleep(5000);
 
         List<WebElement> frame = driver.findElements(By.tagName("frame"));
 

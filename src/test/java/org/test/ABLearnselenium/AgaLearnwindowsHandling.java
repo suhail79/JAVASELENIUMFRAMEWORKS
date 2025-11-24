@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -45,5 +47,18 @@ public class AgaLearnwindowsHandling {
         driver.switchTo().window(parentwindow);
 
 
+        // If there are multiple windows open below is the method to switch into window by using index
+
+        String parwindow = driver.getWindowHandle();
+
+        Set<String> chilwindow = driver.getWindowHandles();
+
+        // Convert Set into list to access using index  [ index starts from zero ]
+
+        List<String> li = new ArrayList<>(chilwindow);
+
+        driver.switchTo().window(li.get(1));
+
+        driver.switchTo().window(parwindow);
     }
 }
