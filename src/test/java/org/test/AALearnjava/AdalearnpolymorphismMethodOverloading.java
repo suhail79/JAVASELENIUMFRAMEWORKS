@@ -11,6 +11,22 @@ Method OverLoading---Static Binding / Compile time polymorphism
 
 Method Overriding---Dynamic Binding / Run time polymorphism
 
+
+
+
+Method Overloading —
+
+I have overloaded methods inside BasePage, for example:
+
+public void click(WebElement element) { ... }
+public void click(By locator) { ... }
+
+Method Overriding —
+
+Some page classes override parent methods for customized behavior.
+
+Example: overriding a wait method or a click method when a dynamic element behaves differently.
+
  */
 public class AdalearnpolymorphismMethodOverloading {
 

@@ -9,6 +9,4 @@ public class Aaalearnajavasimpleclass {
         Aaalearnajavasimpleclass obj=new Aaalearnajavasimpleclass();
         obj.Earth();
     }
-
-
 }

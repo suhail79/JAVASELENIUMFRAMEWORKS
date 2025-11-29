@@ -29,3 +29,6 @@ public class Abdlearnsumofnumericinalphanumericstring {
         System.out.println(sum);
     }
 }
+
+
+// Abelearnsortagivenstring

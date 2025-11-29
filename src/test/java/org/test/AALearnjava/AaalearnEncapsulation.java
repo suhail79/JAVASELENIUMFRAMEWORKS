@@ -11,6 +11,27 @@ public class AaalearnEncapsulation {
 
    *restricting the scope of methods & variables by using access modifiers (public & private)
 
+
+       Project Example:-
+      ********************
+
+I applied encapsulation mainly in the Page Object Model.
+
+Each page class (RefundHomePage, RefundLandingPage) contains:
+
+1.Private WebElements
+
+2.Public methods to access or perform actions on them
+
+Example:
+
+@FindBy(id="refundSummaryBtn")
+private WebElement refundSummaryButton;
+
+public void clickRefundSummary() {
+    refundSummaryButton.click();
+}
+
      */
     private String name;
 

@@ -12,6 +12,15 @@ Two types
 ( declaring interface in the class level using implements keyword)
 
 
+I used abstraction by Creating abstract reusable classes/methods like BasePage,
+where common logic is provided.
+
+Step definitions call only high-level methods like:
+
+selectReasonForCancellation()
+
+validateRefundSummaryPopup()
+
 
  */
 

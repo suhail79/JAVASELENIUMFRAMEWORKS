@@ -10,35 +10,26 @@ import java.util.List;
 public class pracprog1 {
 
     public static void main(String[] args) {
-
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.amazon.in/");
+        List<WebElement> menus = driver.findElements(
+                By.xpath("//a[@class='nav-a  ']"));
 
-        driver.get("https://cosmocode.io/automation-practice-webtable/");
+        for (WebElement menu : menus) {
+            String oldUrl = driver.getCurrentUrl();
+            String menuText = menu.getText();
+            System.out.println("Clicking: " + menuText);
+            menu.click();
 
-        WebElement Table = driver.findElement(By.xpath("//table[@id='countries']"));
-
-        List<WebElement> tr = Table.findElements(By.tagName("tr"));
-
-        for (WebElement row : tr) {
-
-            List<WebElement> td = row.findElements(By.tagName("td"));
-
-            if (td.isEmpty()) {
-                continue;
+            String newUrl = driver.getCurrentUrl();
+            if (!oldUrl.equals(newUrl)) {
+                System.out.println("✔ " + menuText + " redirected correctly → " + newUrl);
+            } else {
+                System.out.println("✘ " + menuText + " did NOT redirect.");
             }
 
-            String text0 = td.get(0).getText();
-            String text1 = td.get(1).getText();
-            String text2 = td.get(2).getText();
-            String text3 = td.get(3).getText();
-            String text4 = td.get(4).getText();
-
-            System.out.println(text0);
-            System.out.println("Country: " + text1 + ", " + "Capital: " + text2);
-            System.out.println("Currency: " + text3);
-            System.out.println("Language: " + text4);
-
+            driver.navigate().back();
         }
-        driver.quit();
     }
 }
